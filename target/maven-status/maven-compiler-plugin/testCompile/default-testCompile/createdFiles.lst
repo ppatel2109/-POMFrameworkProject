@@ -1,0 +1,7 @@
+tests\LoginPageTest.class
+tests\ContactsPageTest.class
+tests\HomePageTest.class
+tests\CustomersPageTest.class
+tests\CreateUserContactPageTest.class
+tests\SignupPageTest.class
+tests\UserHomePageTest.class
