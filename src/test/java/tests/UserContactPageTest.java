@@ -1,54 +1,50 @@
 package tests;
 
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import base.TestBase;
+import pages.CreateUserContactPage;
 import pages.HomePage;
 import pages.LoginPage;
+import pages.UserContactPage;
 import pages.UserHomePage;
 
-public class UserHomePageTest extends TestBase {
-
-	LoginPage lp;
+public class UserContactPageTest extends TestBase {
+	
 	HomePage hp;
+	LoginPage lp;
+	CreateUserContactPage cp;
 	UserHomePage uhp;
-
-	public UserHomePageTest() {
+	UserContactPage ucp;
+	
+	
+	public UserContactPageTest() {
 		super();
 	}
-
+	
 	@BeforeMethod
 	public void setup() throws InterruptedException {
 		initialization();
 		hp = new HomePage();
 		lp = hp.clickOnLogin();
 		uhp = lp.login(prop.getProperty("username"), prop.getProperty("password"));
-
+		ucp=  uhp.userContactPage();
 	}
-
+	
 	@Test(priority = 1)
-	public void checkUserNameTest() {
-		Assert.assertTrue(uhp.usernameCheck("Parth Patel"), "username is not same");
+	public void checkContactTest() {
+		ucp.checkContact("ab cd");
 	}
-
+	
 	@Test(priority = 2)
-	public void checkSavedContactListNotNull() {
-		Assert.assertNotEquals(uhp.allContactsListNumber(), 0, "contacts list is null");
+	public void deleteContactTest() {
+		ucp.contactDelete("Abc Def");
 	}
-
-	@Test(priority = 3)
-	public void checkFreeAccountStatus() {
-		Assert.assertEquals(uhp.freeAccountCheck(), "Free account", "free account label not showing");
-	}
-	
-	
 
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
 	}
-
 }
