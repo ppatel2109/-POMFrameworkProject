@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.CreateUserContactPageTest">
+      <class name="tests.UserContactPageTest">
         <methods>
+          <include name="checkContactTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="createMultipleContact" invocation-numbers="2"/>
         </methods>
-      </class> <!-- tests.CreateUserContactPageTest -->
+      </class> <!-- tests.UserContactPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

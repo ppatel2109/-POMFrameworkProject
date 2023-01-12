@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReportListener"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.CustomersPageTest">
+      <class name="tests.SignupPageTest">
         <methods>
-          <include name="checkDescTest"/>
+          <include name="setup"/>
+          <include name="countryCountTest"/>
+          <include name="tearDown"/>
+          <include name="signupTest"/>
+        </methods>
+      </class> <!-- tests.SignupPageTest -->
+      <class name="tests.UserContactPageTest">
+        <methods>
+          <include name="checkContactTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.CustomersPageTest -->
-      <class name="tests.ContactsPageTest">
+      </class> <!-- tests.UserContactPageTest -->
+      <class name="tests.CreateUserContactPageTest">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="checkContactDetailsTest"/>
+          <include name="setup"/>
+          <include name="createMultipleContact" invocation-numbers="2"/>
         </methods>
-      </class> <!-- tests.ContactsPageTest -->
+      </class> <!-- tests.CreateUserContactPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

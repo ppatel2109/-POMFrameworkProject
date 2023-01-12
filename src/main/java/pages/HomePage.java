@@ -14,10 +14,10 @@ public class HomePage extends TestBase {
 	@FindBy(css = "img[alt*='Free CRM Logo']")
 	WebElement mainLogo;
 
-	@FindBy(linkText =  "Login")
+	@FindBy(xpath =  "//span[contains(text(),'Log In')]")
 	WebElement loginBtn;
 
-	@FindBy(linkText = "Sign Up")
+	@FindBy(xpath = "//a[contains(text(),'Sign Up')]")
 	WebElement signupBtn;
 
 	@FindBy(linkText = "Pricing")
@@ -35,22 +35,22 @@ public class HomePage extends TestBase {
 	@FindBy(css = "img[alt='cogmento small logo']")
 	WebElement icon;
 
-	@FindBy(xpath = "//h1[contains(text(),'CRM with Free calling')]")
+	@FindBy(xpath = "//h1[@class='txt-white']")
 	WebElement headerText;
 
-	@FindBy(xpath = "//section[@id='services']/div[1]/div[1]/div")
+	@FindBy(xpath = "//p[@class='offset-top-22']/a")
 	List<WebElement> servicesList;
 	
 	@FindBy(xpath = "//i[@class='fa fa-users skrollable skrollable-after']")
 	WebElement services1Icon;
 
-	@FindBy(xpath = "//h3[contains(text(),'Free and CRM')]")
+	@FindBy(xpath = "//h5[contains(text(),'Service')]")
 	WebElement services1Title1;
 
-	@FindBy(xpath = "//h5[contains(text(),'Free CRM Click to Call')]")
+	@FindBy(xpath = "//h5[contains(text(),'Sell')]")
 	WebElement services1Title2;
 
-	@FindBy(xpath = "//small[contains(text(),'Using Free crm, you can click to call your contact')]")
+	@FindBy(xpath = "//p[contains(text(),\"Convert leads into accounts faster with the world'\")]")
 	WebElement services1Desc;
 	
 	

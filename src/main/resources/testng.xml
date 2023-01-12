@@ -9,7 +9,12 @@
 
 	<test name="Test">
 		<classes>
-			<class name="tests.HomePageTestCustomersPageTest" />
+			<class name="tests.CreateUserContactPageTest" />
+			<class name="tests.HomePageTest" />
+			<class name="tests.LoginPageTest" />
+			<class name="tests.SignupPageTest" />
+			<class name="tests.UserContactPageTest" />
+			<class name="tests.UserHomePageTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

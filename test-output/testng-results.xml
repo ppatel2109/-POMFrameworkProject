@@ -1,37 +1,626 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="19" passed="15" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-16T23:43:23 EST" name="Default suite" finished-at="2022-12-16T23:43:44 EST" duration-ms="20669">
+  <suite started-at="2023-01-11T14:48:28 EST" name="Suite" finished-at="2023-01-11T14:52:32 EST" duration-ms="243793">
     <groups>
     </groups>
-    <test started-at="2022-12-16T23:43:23 EST" name="Default test" finished-at="2022-12-16T23:43:44 EST" duration-ms="20669">
-      <class name="tests.UserContactPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserContactPageTest@2794eab6]" started-at="2022-12-16T23:43:24 EST" name="setup" finished-at="2022-12-16T23:43:33 EST" duration-ms="9585" status="PASS">
+    <test started-at="2023-01-11T14:48:28 EST" name="Test" finished-at="2023-01-11T14:52:32 EST" duration-ms="243793">
+      <class name="tests.UserHomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:51:58 EST" name="setup" finished-at="2023-01-11T14:52:07 EST" duration-ms="9151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkContactTest()[pri:1, instance:tests.UserContactPageTest@2794eab6]" started-at="2022-12-16T23:43:33 EST" name="checkContactTest" finished-at="2022-12-16T23:43:33 EST" duration-ms="24" status="PASS">
+        <test-method signature="checkUserNameTest()[pri:1, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:52:07 EST" name="checkUserNameTest" finished-at="2023-01-11T14:52:08 EST" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkContactTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserContactPageTest@2794eab6]" started-at="2022-12-16T23:43:33 EST" name="tearDown" finished-at="2022-12-16T23:43:34 EST" duration-ms="765" status="PASS">
+        </test-method> <!-- checkUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:52:08 EST" name="tearDown" finished-at="2023-01-11T14:52:09 EST" duration-ms="1047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserContactPageTest@2794eab6]" started-at="2022-12-16T23:43:34 EST" name="setup" finished-at="2022-12-16T23:43:43 EST" duration-ms="9277" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:52:09 EST" name="setup" finished-at="2023-01-11T14:52:18 EST" duration-ms="9617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="deleteContactTest()[pri:2, instance:tests.UserContactPageTest@2794eab6]" started-at="2022-12-16T23:43:43 EST" name="deleteContactTest" finished-at="2022-12-16T23:43:43 EST" duration-ms="17" status="PASS">
+        <test-method signature="checkSavedContactListNotNull()[pri:2, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:52:18 EST" name="checkSavedContactListNotNull" finished-at="2023-01-11T14:52:20 EST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSavedContactListNotNull -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:52:20 EST" name="tearDown" finished-at="2023-01-11T14:52:21 EST" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:52:21 EST" name="setup" finished-at="2023-01-11T14:52:30 EST" duration-ms="9358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkFreeAccountStatus()[pri:3, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:52:30 EST" name="checkFreeAccountStatus" finished-at="2023-01-11T14:52:30 EST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFreeAccountStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserHomePageTest@5149d738]" started-at="2023-01-11T14:52:30 EST" name="tearDown" finished-at="2023-01-11T14:52:32 EST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UserHomePageTest -->
+      <class name="tests.UserContactPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserContactPageTest@53045c6c]" started-at="2023-01-11T14:51:26 EST" name="setup" finished-at="2023-01-11T14:51:36 EST" duration-ms="9741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkContactTest()[pri:1, instance:tests.UserContactPageTest@53045c6c]" started-at="2023-01-11T14:51:36 EST" name="checkContactTest" finished-at="2023-01-11T14:51:46 EST" duration-ms="10420" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[contains(text(),'ab cd')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [637e95b6-24b2-4012-b89e-2ec22385d0e4, findElement {using=xpath, value=//a[contains(text(),'ab cd')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:debuggerAddress: 127.0.0.1:33728, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21204, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:33728/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 637e95b6-24b2-4012-b89e-2ec22385d0e4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(text(),'ab cd')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [637e95b6-24b2-4012-b89e-2ec22385d0e4, findElement {using=xpath, value=//a[contains(text(),'ab cd')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:debuggerAddress: 127.0.0.1:33728, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21204, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:33728/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 637e95b6-24b2-4012-b89e-2ec22385d0e4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+at com.sun.proxy.$Proxy15.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+at pages.UserContactPage.checkContact(UserContactPage.java:18)
+at tests.UserContactPageTest.checkContactTest(UserContactPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserContactPageTest@53045c6c]" started-at="2023-01-11T14:51:46 EST" name="tearDown" finished-at="2023-01-11T14:51:47 EST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserContactPageTest@53045c6c]" started-at="2023-01-11T14:51:47 EST" name="setup" finished-at="2023-01-11T14:51:56 EST" duration-ms="9735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteContactTest()[pri:2, instance:tests.UserContactPageTest@53045c6c]" started-at="2023-01-11T14:51:56 EST" name="deleteContactTest" finished-at="2023-01-11T14:51:57 EST" duration-ms="508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteContactTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserContactPageTest@2794eab6]" started-at="2022-12-16T23:43:43 EST" name="tearDown" finished-at="2022-12-16T23:43:44 EST" duration-ms="954" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserContactPageTest@53045c6c]" started-at="2023-01-11T14:51:57 EST" name="tearDown" finished-at="2023-01-11T14:51:58 EST" duration-ms="1049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.UserContactPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:49:43 EST" name="setup" finished-at="2023-01-11T14:49:48 EST" duration-ms="4720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHeaderTextTest()[pri:3, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:49:48 EST" name="verifyHeaderTextTest" finished-at="2023-01-11T14:49:48 EST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:49:48 EST" name="tearDown" finished-at="2023-01-11T14:49:49 EST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:49:49 EST" name="setup" finished-at="2023-01-11T14:49:54 EST" duration-ms="5305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyService1Title1TextTest()[pri:4, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:49:54 EST" name="verifyService1Title1TextTest" finished-at="2023-01-11T14:49:55 EST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyService1Title1TextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:49:55 EST" name="tearDown" finished-at="2023-01-11T14:49:56 EST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:49:56 EST" name="setup" finished-at="2023-01-11T14:50:01 EST" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyService1Title2TextTest()[pri:5, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:01 EST" name="verifyService1Title2TextTest" finished-at="2023-01-11T14:50:02 EST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyService1Title2TextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:02 EST" name="tearDown" finished-at="2023-01-11T14:50:03 EST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:03 EST" name="setup" finished-at="2023-01-11T14:50:08 EST" duration-ms="5148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyService1DescTextTest()[pri:6, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:08 EST" name="verifyService1DescTextTest" finished-at="2023-01-11T14:50:08 EST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyService1DescTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:08 EST" name="tearDown" finished-at="2023-01-11T14:50:09 EST" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:09 EST" name="setup" finished-at="2023-01-11T14:50:15 EST" duration-ms="5111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyServicesListSizeTest()[pri:7, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:15 EST" name="verifyServicesListSizeTest" finished-at="2023-01-11T14:50:15 EST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServicesListSizeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:15 EST" name="tearDown" finished-at="2023-01-11T14:50:16 EST" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:16 EST" name="setup" finished-at="2023-01-11T14:50:21 EST" duration-ms="5100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:8, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:21 EST" name="loginTest" finished-at="2023-01-11T14:50:25 EST" duration-ms="3825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@663c9e7a]" started-at="2023-01-11T14:50:25 EST" name="tearDown" finished-at="2023-01-11T14:50:26 EST" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.CreateUserContactPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:48:28 EST" name="setup" finished-at="2023-01-11T14:48:43 EST" duration-ms="14804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createContactTest()[pri:1, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:48:43 EST" name="createContactTest" finished-at="2023-01-11T14:48:45 EST" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:48:45 EST" name="tearDown" finished-at="2023-01-11T14:48:46 EST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:48:47 EST" name="setup" finished-at="2023-01-11T14:48:59 EST" duration-ms="12802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createMultipleContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:48:59 EST" name="createMultipleContact" data-provider="getTestData" finished-at="2023-01-11T14:49:02 EST" duration-ms="2104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Def]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fjo;iafmaspv soi; ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:49:02 EST" name="tearDown" finished-at="2023-01-11T14:49:03 EST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:49:03 EST" name="setup" finished-at="2023-01-11T14:49:15 EST" duration-ms="12721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createMultipleContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:49:15 EST" name="createMultipleContact" data-provider="getTestData" finished-at="2023-01-11T14:49:17 EST" duration-ms="2096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ucns]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wasm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jiowecmpo,EC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:49:17 EST" name="tearDown" finished-at="2023-01-11T14:49:18 EST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:49:18 EST" name="setup" finished-at="2023-01-11T14:49:31 EST" duration-ms="12403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createMultipleContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:49:31 EST" name="createMultipleContact" data-provider="getTestData" finished-at="2023-01-11T14:49:42 EST" duration-ms="11568" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xdja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Contact]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mlka oidsc j8fuwe dcljcoiwe ao;]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //textarea[@name='description']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e0df90a7-7227-4f7d-a8f0-25fe480cd467, findElement {using=xpath, value=//textarea[@name='description']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:debuggerAddress: 127.0.0.1:40091, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21912, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:40091/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0df90a7-7227-4f7d-a8f0-25fe480cd467]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //textarea[@name='description']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e0df90a7-7227-4f7d-a8f0-25fe480cd467, findElement {using=xpath, value=//textarea[@name='description']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:debuggerAddress: 127.0.0.1:40091, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21912, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:40091/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e0df90a7-7227-4f7d-a8f0-25fe480cd467
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+at com.sun.proxy.$Proxy15.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
+at pages.CreateUserContactPage.createNewContact(CreateUserContactPage.java:50)
+at tests.CreateUserContactPageTest.createMultipleContact(CreateUserContactPageTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateUserContactPageTest@3646a422]" started-at="2023-01-11T14:49:42 EST" name="tearDown" finished-at="2023-01-11T14:49:43 EST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateUserContactPageTest -->
+      <class name="tests.SignupPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:50:37 EST" name="setup" finished-at="2023-01-11T14:50:46 EST" duration-ms="9080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkErrorTest()[pri:1, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:50:46 EST" name="checkErrorTest" finished-at="2023-01-11T14:50:46 EST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkErrorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:50:46 EST" name="tearDown" finished-at="2023-01-11T14:50:47 EST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:50:47 EST" name="setup" finished-at="2023-01-11T14:50:56 EST" duration-ms="8592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signupTest()[pri:2, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:50:56 EST" name="signupTest" finished-at="2023-01-11T14:51:06 EST" duration-ms="10127" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@class='search']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [057df6f8-0a7f-4c36-846f-c50ce553793a, findElement {using=xpath, value=//input[@class='search']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:debuggerAddress: 127.0.0.1:47901, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15864, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:47901/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 057df6f8-0a7f-4c36-846f-c50ce553793a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@class='search']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [057df6f8-0a7f-4c36-846f-c50ce553793a, findElement {using=xpath, value=//input[@class='search']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:debuggerAddress: 127.0.0.1:47901, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15864, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:47901/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 057df6f8-0a7f-4c36-846f-c50ce553793a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+at com.sun.proxy.$Proxy15.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy19.click(Unknown Source)
+at pages.SignupPage.verifyEmail(SignupPage.java:51)
+at tests.SignupPageTest.signupTest(SignupPageTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:51:06 EST" name="tearDown" finished-at="2023-01-11T14:51:07 EST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:51:07 EST" name="setup" finished-at="2023-01-11T14:51:15 EST" duration-ms="7988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="countryCountTest()[pri:3, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:51:15 EST" name="countryCountTest" finished-at="2023-01-11T14:51:25 EST" duration-ms="10076" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[contains(text(),'Canada')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4511967d-e126-4d78-a3b0-098c3d0332de, findElement {using=xpath, value=//div[contains(text(),'Canada')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:debuggerAddress: 127.0.0.1:33647, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15724, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:33647/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4511967d-e126-4d78-a3b0-098c3d0332de]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),'Canada')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4511967d-e126-4d78-a3b0-098c3d0332de, findElement {using=xpath, value=//div[contains(text(),'Canada')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:debuggerAddress: 127.0.0.1:33647, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15724, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:33647/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4511967d-e126-4d78-a3b0-098c3d0332de
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+at com.sun.proxy.$Proxy15.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy19.click(Unknown Source)
+at pages.SignupPage.countryCount(SignupPage.java:63)
+at tests.SignupPageTest.countryCountTest(SignupPageTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryCountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignupPageTest@795509d9]" started-at="2023-01-11T14:51:25 EST" name="tearDown" finished-at="2023-01-11T14:51:26 EST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignupPageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@19e4653c]" started-at="2023-01-11T14:50:26 EST" name="setup" finished-at="2023-01-11T14:50:35 EST" duration-ms="9464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:tests.LoginPageTest@19e4653c]" started-at="2023-01-11T14:50:35 EST" name="loginTest" finished-at="2023-01-11T14:50:36 EST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@19e4653c]" started-at="2023-01-11T14:50:36 EST" name="tearDown" finished-at="2023-01-11T14:50:37 EST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
